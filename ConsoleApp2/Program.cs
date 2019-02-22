@@ -14,7 +14,7 @@ namespace Assignment02
         {
             timer = new Timer()
             {
-                Interval = 5000, //5 second intervals
+                Interval = 60000, //60 second intervals
                 AutoReset = true, //Instructs the Timer to execute the event repeatedly
                 Enabled = true //Enable the Timer
             };
